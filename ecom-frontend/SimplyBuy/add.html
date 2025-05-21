@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Product Entry</title>
+  <link rel="stylesheet" href="/SimplyBuy2/style2.css" />
+</head>
+<body>
+  <h1>SIMPLY BUY</h1>
+  <div id="btn">
+    <a href="index.html"><button>Home</button></a>
+  </div>
+
+  <div id="container">
+    <form id="productForm">
+      <div class="outer">
+        <label>Name</label>
+        <input id="name" class="input" type="text" name="name" placeholder="Enter Product" required>
+      </div>
+      <div class="outer">
+        <label>Brand</label>
+        <input class="input" type="text" name="brand" placeholder="Enter Brand" required>
+      </div>
+      <div class="outer">
+        <label>Description</label>
+        <input class="input" type="text" name="desc" placeholder="Enter Product Description" required>
+      </div>
+      <div class="outer">
+        <label>Price</label>
+        <input class="input" type="number" name="price" placeholder="Enter Price" required>
+      </div>
+      <div class="outer">
+        <label>Category</label>
+        <select class="input" name="category" required>
+          <option value="">Select Category</option>
+          <option value="Mobile">Mobile</option>
+          <option value="Fashion">Fashion</option>
+          <option value="Laptop">Laptop</option>
+        </select>
+      </div>
+      <div class="outer">
+        <label>Stock Quantity</label>
+        <input class="input" type="number" name="quantity" placeholder="Stock Remaining" required>
+      </div>
+      <div class="outer">
+        <label>Date</label>
+        <input class="input" type="date" name="releaseDate" required>
+      </div>
+      <div class="outer">
+        <label>Image</label>
+        <input class="input" type="file" name="imageFile" required>
+      </div>
+      <div class="buttn">
+        <button id="buttn" type="submit">Submit</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="/SimplyBuy3/script1.js"></script>
+</body>
+</html>
